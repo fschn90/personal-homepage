@@ -1,13 +1,21 @@
 
-body {
+/* body {
     padding: 5% 20% 0%;
+} */
+
+body div {
+    margin: 1em auto;
+    width: 100%;
+    max-width: 500px;
+
 }
 
 img {
     border-radius: 50%;
-    height: 400px;
-    width: 400px;
-    object-fit: cover
+    width: 100%;
+    max-width: 400px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
 }
 
 * {
